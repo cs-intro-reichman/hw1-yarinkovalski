@@ -19,11 +19,11 @@ public class TimeFormat
 		{
 			if (minutes<10)
 			{
-            	System.out.println(hours+":"+"0"+minutes+ " Pm");
+            	System.out.println(hours+":"+"0"+minutes+ " PM");
 			}
 			else
 				{
-				System.out.println(hours+":"+minutes+ " Pm");
+				System.out.println(hours+":"+minutes+ " PM");
 				}
 		}
 
@@ -31,11 +31,11 @@ public class TimeFormat
 				{
 					if (minutes<10)
 					{
-						System.out.println(hours+":"+"0"+minutes+ " Am");
+						System.out.println(hours+":"+"0"+minutes+ " AM");
 					}
 					else
 						{
-						System.out.println(hours+":"+minutes+ " Am");
+						System.out.println(hours+":"+minutes+ " AM");
 						}
 
 				}
@@ -45,20 +45,20 @@ public class TimeFormat
 					{
 					if (minutes<10)
 					{
-						System.out.println((hours)+":"+"0"+minutes+ " Am");
+						System.out.println((hours)+":"+"0"+minutes+ " AM");
 					}
 					else
 						{
-						System.out.println((hours-12)+":"+minutes+ " Am");
+						System.out.println((hours-12)+":"+minutes+ " AM");
 						}	
 					}
 				else if (minutes<10)
 				{
-					System.out.println((hours-12)+":"+"0"+minutes+ " Pm");
+					System.out.println((hours-12)+":"+"0"+minutes+ " PM");
 				}
 				else
 					{
-					System.out.println((hours-12)+":"+minutes+ " Pm");
+					System.out.println((hours-12)+":"+minutes+ " PM");
 					}
 			}
             
