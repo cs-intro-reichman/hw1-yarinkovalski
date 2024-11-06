@@ -17,7 +17,7 @@ public class Bill3
         int bill = Integer.parseInt(args[3]);
         double division = (double) bill/3; //the bill/3 (3 people)
         division = Math.ceil(division); //round up
-        System.out.println("Dear "+ name3 + ", " + name2+ ", and " + name1 + ": pay " + division + " each.");
+        System.out.println("Dear "+ name3 + ", " + name2+ ", and " + name1 + ": pay " + division + " Shekels each");
 	    // Replace this comment with the rest of your code   
 		// Dear a, b, and c: pay 80.0 each.
 	
