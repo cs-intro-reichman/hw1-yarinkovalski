@@ -1,9 +1,13 @@
-// Prints the numbers 0 to 5.
-// (Same program as shown in lecture 1-1).
-public class PrintTo5 {
-	public static void main(String[] args) {
-		// Declares an int variable, and sets it to 1
-        int i = 0;
-        // Complete the program's code here:
+//Exe 0 - printing 0-5 numbers
+public class Demo0 {
+    public static void main(String[] args) {
+    int i = 0;  // Declares an integer variable and sets it to 0
+    while (i < 5) //if (i is less than 5)
+    {
+    // Prints i, and increments it
+        System.out.println(i); //printing the number i
+        i = i + 1; //enlarge the i number in +1
     }
- }
+    System.out.println("Done"); //printing of finish
+    }
+    }
