@@ -1,19 +1,12 @@
-import java.util.*; 
-
-
-
-// Prints a given number using a hundreds, tens, and units notation.
+//Exe 3 - Prints a given number using a hundreds, tens, and units notation.
 public class NumWords {
 	public static void main(String args[]) 
     {
-        Scanner sc= new Scanner(System.in); 
-        int number =  Integer.parseInt(args[0]);
-        int hundreds = number/100;
-        number = number%100;
-        int tens = number/10;
-        int digits = number%10;
+        int number =  Integer.parseInt(args[0]); //the number
+        int hundreds = number/100; //the hunderds digit
+        number = number%100; // remainder of number from 100 (to find the tens digit)
+        int tens = number/10; // the tens digit
+        int digits = number%10;  // the number of digits in main number
         System.out.println( hundreds +" hundreds, " + tens + " tens, and " + digits +" ones.");
-	    // Replace this comment with your code
-		//1 hundreds, 2 tens, and 3 ones.
 	}
 }
